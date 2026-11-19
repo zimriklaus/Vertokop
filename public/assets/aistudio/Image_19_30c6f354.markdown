@@ -1,0 +1,220 @@
+---
+name: Apex Arena Scoreboard
+colors:
+  surface: '#fcf9f8'
+  surface-dim: '#dcd9d9'
+  surface-bright: '#fcf9f8'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f3f2'
+  surface-container: '#f0edec'
+  surface-container-high: '#ebe7e7'
+  surface-container-highest: '#e5e2e1'
+  on-surface: '#1c1b1b'
+  on-surface-variant: '#4f4634'
+  inverse-surface: '#313030'
+  inverse-on-surface: '#f3f0ef'
+  outline: '#817661'
+  outline-variant: '#d2c5ad'
+  surface-tint: '#785a00'
+  primary: '#785a00'
+  on-primary: '#ffffff'
+  primary-container: '#ffc83d'
+  on-primary-container: '#715400'
+  inverse-primary: '#f5bf34'
+  secondary: '#595f66'
+  on-secondary: '#ffffff'
+  secondary-container: '#dbe0e8'
+  on-secondary-container: '#5e636a'
+  tertiary: '#bf0022'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#ffc1bd'
+  on-tertiary-container: '#b50020'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdf9c'
+  primary-fixed-dim: '#f5bf34'
+  on-primary-fixed: '#251a00'
+  on-primary-fixed-variant: '#5b4300'
+  secondary-fixed: '#dee3eb'
+  secondary-fixed-dim: '#c2c7cf'
+  on-secondary-fixed: '#171c22'
+  on-secondary-fixed-variant: '#42474e'
+  tertiary-fixed: '#ffdad7'
+  tertiary-fixed-dim: '#ffb3af'
+  on-tertiary-fixed: '#410005'
+  on-tertiary-fixed-variant: '#930018'
+  background: '#fcf9f8'
+  on-background: '#1c1b1b'
+  surface-variant: '#e5e2e1'
+typography:
+  display-hero:
+    fontFamily: Syne
+    fontSize: 72px
+    fontWeight: '800'
+    lineHeight: 76px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Syne
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-xl:
+    fontFamily: Syne
+    fontSize: 48px
+    fontWeight: '800'
+    lineHeight: 52px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Syne
+    fontSize: 28px
+    fontWeight: '800'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Syne
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Syne
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 30px
+    letterSpacing: 0em
+  headline-sm:
+    fontFamily: Syne
+    fontSize: 18px
+    fontWeight: '700'
+    lineHeight: 24px
+    letterSpacing: 0.01em
+  body-lg:
+    fontFamily: Chivo
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Chivo
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Chivo
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-data-lg:
+    fontFamily: Space Mono
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 24px
+    letterSpacing: -0.02em
+  label-data-md:
+    fontFamily: Space Mono
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-data-sm:
+    fontFamily: Space Mono
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system channels the raw tension, physical impact, and precision of high-stakes competitive esports arenas and professional sports broadcast graphics. It is engineered for tournament operators, elite spectators, and high-performance competitive platforms where split-second comprehension and prestige matter.
+
+The visual style merges **Brutalism** with **Broadcast Graphics**:
+- **Monolithic Visual Weight:** Heavy containment boxes, thick architectural borders, and stark figure-ground contrasts replace subtle blurs and delicate drop-shadows.
+- **Stadium Lighting Contrast:** Razor-sharp juxtapositions of absolute white canvases, pitch-black infrastructure, and high-intensity metallic accents (championship gold and cold silver).
+- **Mechanical Precision:** Numerical telemetry, ranking deltas, and prize splits are laid out with tabular exactitude, evoking real-time arena jumbotrons and live television overlays.
+
+## Colors
+
+The palette establishes an aggressive, high-contrast hierarchy that mirrors premier podium ceremonies and broadcast status strips:
+
+- **Primary (`#FFC83D` — Trophy Gold):** Reserved for 1st Place finishes, active prize pools, high-tier status badges, and primary interactive buttons. When applied to buttons or prominent badges, text must always render in solid Black (`#111111`) for maximum punch and legibility.
+- **Secondary (`#C9CED6` — Silver / Podium Metal):** Represents 2nd place achievements, secondary data surfaces, deactivated states, and utility borders across dark hero panels.
+- **Tertiary (`#E4002B` — Flag Red):** Strictly reserved for urgent state indicators: live broadcast status pings ("LIVE"), critical match disqualifications, and cancelled status chips. Never used as general decorative color.
+- **Neutral (`#111111` — Deep Black) & Base (`#FFFFFF` — Pure White):** Light tournament views live across crisp pure white backgrounds structured by dense deep-black stroke frameworks. Pitch-black serves as the grounding shade for hero leaderboards, headers, broadcast ribbons, and high-stakes display cards.
+
+## Typography
+
+The typographic hierarchy is split into three functional divisions:
+
+1. **Broadcast Headers (`Syne`):** Extra-wide, muscular, and authoritative. Display sizes feature tight tracking to emulate arena jumbotron graphics and physical scoreboards. Headings over 32px automatically compress into their mobile counterparts on small viewports to avoid awkward word breaks.
+2. **Body & Player Roster Names (`Chivo`):** A sharp, modern grotesque with geometric clarity. Chivo provides exceptional legibility inside dense data rows, tournament brackets, and player match histories.
+3. **Telemetry & Monospace (`Space Mono`):** Dedicated to numerical rank counters, monetary prizes, kill-death ratios, timestamps, and match IDs. All numeric typography must enable tabular figures (`font-variant-numeric: tabular-nums`) so numbers stay vertically aligned across rapidly updating score rows.
+
+## Layout & Spacing
+
+The layout philosophy follows a rigid, structural broadcast grid where data modules lock together like stadium LED tiles.
+
+- **Grid System:** A 12-column desktop grid collapsing to 8 columns on tablets and 4 columns on mobile devices.
+- **Rhythm & Enclosure:** Gutters remain compact (`1rem`) to keep match metrics unified. Content areas are framed inside structural outer black borders rather than floating freely.
+- **Responsiveness:**
+  - **Desktop (1024px+):** Full multi-column leaderboards displaying team flags, rank deltas, player rosters, KD ratios, and instant prize totals in a single horizontal row.
+  - **Tablet (768px - 1023px):** Secondary statistical columns collapse into expandable drawers or switch to stacked sub-rows.
+  - **Mobile (<768px):** Leaderboard rows adopt a stacked dual-tier card layout: Rank + Team + Score on line 1, granular stats + prize money pinned to line 2. Section margins reduce to `1rem`.
+
+## Elevation & Depth
+
+This system intentionally rejects soft atmospheric shadows, elevation blurs, and skeuomorphic lighting in favor of **bold architectural borders** and **hard mechanical offset shadows**:
+
+- **Hard Contrast Borders:** Surfaces achieve separation exclusively through solid 2px to 4px Deep Black (`#111111`) rules. No low-contrast hairline borders.
+- **Solid Drop Offsets (The "Championship Block"):** When hover feedback or visual elevation is required (such as interactive match cards or hero modals), elements employ a solid, hard-edged offset shadow: `box-shadow: 4px 4px 0px 0px #111111`.
+- **Top Podium Elevation:** First-place rows and featured bracket cards apply an outer inset edge: `box-shadow: 0 0 0 2px #FFC83D`.
+- **Surface Layering:** Visual depth is produced through stark tonal stacking—Pure White cards resting directly on jet-black hero mats, demarcated by thick 3px black dividers.
+
+## Shapes
+
+The design system enforces a sharp, industrial `roundedness: 1` standard across all interactive and structural containers:
+
+- **Default Radius:** Fixed at `0.25rem` (4px). Every card, data cell, badge, and button maintains this strict 4px edge to mimic electronic sports score equipment.
+- **Internal Cuts:** Nested elements (inner badges inside cards) use an exact 2px radius or remain completely sharp (0px) to prevent soft nested curves.
+- **Pill Shapes Prohibited:** Circular pill chips and rounded-full avatars are prohibited; player avatars and team crests sit inside 4px squared-off frames with 2px solid outlines.
+
+## Components
+
+### Buttons
+- **Primary (Championship Gold):** Background `#FFC83D`, solid 2px `#111111` border, 4px border radius. Typography: `Space Mono`, bold, all-caps, colored in `#111111`. Hover state: hard offset shadow `3px 3px 0px #111111` and a -1px translate shift. Active state: `translate(2px, 2px)` with no shadow.
+- **Secondary (Broadcast Dark):** Background `#111111`, solid 2px `#111111` border, text `#FFFFFF`. Hover state: background switches to `#222222`.
+- **Ghost / Utility:** Background transparent, solid 2px `#111111` border, text `#111111`.
+
+### Leaderboard Rows & Tables
+- **Standard Row:** Background `#FFFFFF`, bordered bottom by a 2px `#111111` line. Padding: `12px 16px`. Tabular figures for points and standings.
+- **1st Place Podium Row:** Background tinted with an intentional 10% `#FFC83D` wash, framed with a 3px solid `#FFC83D` or `#111111` border, featuring a Trophy Gold rank block with bold black text.
+- **2nd Place Row:** Subtle `#C9CED6` left edge accent tab (4px wide) highlighting silver tier placement.
+
+### Badges & Chips
+- **Live Match Indicator:** Background `#E4002B`, text `#FFFFFF`, font `Space Mono` uppercase, 2px border radius. Accompanied by a pulsing 6px square white dot.
+- **Status Badges (Final / Cancelled):** Cancelled uses high-contrast Flag Red border with black text; Final uses solid `#111111` background with white text.
+- **Prize Tag:** Background `#111111`, text `#FFC83D`, framed in a 2px black stroke.
+
+### Input Fields & Controls
+- **Search & Filters:** Thick 2px `#111111` outer border, background `#FFFFFF`, text `#111111`, placeholder `#767676`. Focus state: thick 3px outline in `#111111` with a subtle `#FFC83D` inner accent strip.
+- **Checkboxes & Radios:** Sharp square boxes (2px radius for checkboxes, square diamond for radios) framed with 2px solid black strokes. Checked state fills with `#111111` featuring a `#FFC83D` check mark.
+
+### Bracket & Match Cards
+- **Match Card:** Pure white container framed with a 2px `#111111` outer shell. Divided horizontally by a 2px `#111111` divider separating Team A and Team B. Winner row is highlighted with a gold rank indicator, loser row is rendered in 60% opacity with slashed-out scoring.

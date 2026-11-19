@@ -1,0 +1,25 @@
+interface VertokopLogoProps {
+  size?: number;
+  className?: string;
+}
+
+export function VertokopLogo({ size = 32, className = '' }: VertokopLogoProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 64 64"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-hidden="true"
+    >
+      <rect width="64" height="64" rx="4" fill="#111111" />
+      <rect x="3" y="3" width="58" height="58" rx="2" stroke="#FFC83D" strokeWidth="2.5" />
+      <path d="M14 18H23L32 39L41 18H50L36 48H28L14 18Z" fill="#FFC83D" />
+      <rect x="14" y="51" width="10" height="4" fill="#C9CED6" />
+      <rect x="27" y="51" width="10" height="4" fill="#FFC83D" />
+      <rect x="40" y="51" width="10" height="4" fill="#FFFFFF" />
+    </svg>
+  );
+}

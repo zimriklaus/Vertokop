@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertokop</title>
+    <meta name="description" content="Prize pool tool built on Arc for organizers and players." />
+    <meta property="og:title" content="Vertokop" />
+    <meta property="og:description" content="Prize pool tool built on Arc for organizers and players." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;700&family=Space+Mono:wght@400;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var desc = Object.getOwnPropertyDescriptor(window, 'fetch');
+          if (desc && desc.get && !desc.set && desc.configurable) {
+            var origGet = desc.get;
+            var overrideFetch;
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: desc.enumerable,
+              get: function () {
+                return overrideFetch !== undefined ? overrideFetch : origGet.call(window);
+              },
+              set: function (v) {
+                if (this === window) {
+                  overrideFetch = v;
+                } else {
+                  Object.defineProperty(this, 'fetch', {
+                    value: v,
+                    writable: true,
+                    enumerable: true,
+                    configurable: true,
+                  });
+                }
+              },
+            });
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
